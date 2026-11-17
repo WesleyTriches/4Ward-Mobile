@@ -1,28 +1,18 @@
-import 'package:app01/telas/contador.dart';
-import 'package:app01/telas/home.dart';
-import 'package:app01/telas/login.dart';
-import 'package:app01/telas/sobre.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FourWardApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FourWardApp extends StatelessWidget {
+  const FourWardApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: LoginPage(),
-      routes: {
-        '/home': (context) => HomePage(),
-        '/contador': (context) => ContadorPage(title: "Contador"),
-        '/sobre': (context) => SobrePage(),
-      },
+    return const MaterialApp(
+      title: '4Ward',
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(body: Center(child: Text('4Ward'))),
     );
   }
 }
