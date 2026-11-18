@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'core/theme/app_theme.dart';
+
 void main() {
   runApp(const FourWardApp());
 }
@@ -9,10 +11,11 @@ class FourWardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: '4Ward',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('4Ward'))),
+      theme: AppTheme.light,
+      home: const Scaffold(body: Center(child: Text('4Ward'))),
     );
   }
 }
