@@ -1,6 +1,6 @@
 {
-    "name": "app01",
-    "short_name": "app01",
+    "name": "4Ward",
+    "short_name": "4Ward",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
