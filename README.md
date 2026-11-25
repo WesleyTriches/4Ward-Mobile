@@ -2,6 +2,14 @@
 
 Aplicativo mobile do **4Ward**, uma plataforma para conectar pacientes e fisioterapeutas. Esta versão é voltada ao **paciente**: permite buscar profissionais, agendar consultas e acompanhar o histórico. A criação de horários e a gestão da agenda são feitas pelo fisioterapeuta na versão web.
 
+## Equipe
+
+Projeto desenvolvido por:
+
+- Alberto Neto
+- Gabriel Trentini
+- Wesley Triches
+
 ## Tecnologias
 
 - Flutter
